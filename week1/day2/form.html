@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body><form action="form">
+    <h1>Register</h1>
+    <label for="name">Adınız:</label>
+    <input id="name" name="name" type="text"/>
+    <label for="surename">Soyadınız:</label>
+    <input type="text" id="surename" name="surename" /><br/>
+    <label for="gender">Cinsiyyət:</label><br />
+    <input type="radio" id="male" name="gender" value="male" />Kişi
+    <input type="radio" id="female" name="gender" value="female" />Qadın <br />
+    <label for="birthdate">Doğum gününüzü qeyd edin</label>
+    <input type="date" name="birthdate" id="birthdate" /><br />
+    <label for="age">Yaşınızı qeyd edin</label>
+    <input type="number" name="age" id="age" name="age" max="40" min="17" />
+    <label for="language">Hansı dilləri bilirsiniz?</label><br />
+    <input type="checkbox" name="language" id="en" value="en" />
+    <label for="en">İngilis dili</label>
+    <input type="checkbox" name="language" id="en" value="fr" />
+    <label for="fr">Fransız dili</label>
+    <input type="checkbox" name="language" id="en" value="Ge" />
+    <label for="Ge">Alman dili</label><br/>
+    <label for="sahe">Müraciət etmək istədiyiniz sahəni seçin</label>
+    <select label="Front-end-development">
+        <option value="Front">Front-end-development</option>
+        <option value="back">Back-end-development</option>
+        <option value="network">Network-Adminstator</option>
+    </select><br>
+    <label for="image">Şəkilinizi əlavə edin</label>
+    <input type="file" name="image" id="image" accept="image.*"><br>
+    <label for="">Sizinlə meet olunmasını istədiyiniz saatı seçin</label>
+    <input type="time"><br>
+    <label for="color">Sevdiyiniz rəng</label><input type="color" id="color"><br>
+    <label for="info">Özünüz haqqında ətraflı məlumat yazın</label><br>
+    <textarea name="info" id="info" cols="50" rows="5"></textarea><br>
+    <button type="reset">reset</button>
+    <button type="submit" >gonder</button>
+
+</form>
+  </body>
+</html>

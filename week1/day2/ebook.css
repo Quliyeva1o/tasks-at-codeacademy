@@ -1,0 +1,14 @@
+*{margin:0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+header{justify-content: space-between;display: flex;}
+header ,section ,footer{padding: 20px 70px;}
+nav,ul{display: flex; align-items: center;}
+nav ul a {text-decoration: none;color: #000;}
+nav ul li{padding: 0 50px;}
+nav button{width: 150px;height: 50px;}
+#hero_and_register{display: flex; background-color: rgb(9, 16, 152);align-items: center; height: 500px;}
+#hero_and_register div{width: 50%;}
+#hero_and_register .div1 h1{color: #fff;}
+#hero_and_register .div1 p{color: #707070;}
+.div2 form{background-color: #fff; border-radius: 20px;}
+.fullname{display: flex;}
+
