@@ -1,0 +1,7 @@
+.items .book{background-color: red;}
+#pen{color:green;}
+.items>p:only-child{color:yellow}
+.items #animal>span{background-color: pink;}
+
+.items .animal{color: blue}
+.items div .parag{background-color: green;}
