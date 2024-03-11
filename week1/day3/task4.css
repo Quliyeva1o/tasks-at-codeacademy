@@ -1,0 +1,5 @@
+.task1 li:nth-child(4){background-color: yellow;}
+.task2 li:last-of-type{background-color: green;}
+.items p+span{background-color: blue;}
+.task4 li:nth-child(even){background-color: gold}
+.task5 li:nth-child(odd):not(:first-child){background-color:red}

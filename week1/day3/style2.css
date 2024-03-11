@@ -1,7 +1,7 @@
-.items .book{background-color: red;}
-#pen{color:green;}
-.items>p:only-child{color:yellow}
-.items #animal>span{background-color: pink;}
+.task1 div+span{background-color: red}
 
-.items .animal{color: blue}
-.items div .parag{background-color: green;}
+
+.task2>div~span{background-color: pink;}
+.task3>div>p:only-child{background-color: yellow;}
+
+ul li:first-child{background-color: gold;}
