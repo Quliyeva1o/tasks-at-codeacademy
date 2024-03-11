@@ -1,0 +1,7 @@
+.task1 div+span{background-color: red}
+
+
+.task2>div~span{background-color: pink;}
+.task3>div>p:only-child{background-color: yellow;}
+
+ul li:first-child{background-color: gold;}

@@ -1,0 +1,5 @@
+.task1 button[value*="ello"]{background-color: yellow;}
+.task2 button:nth-child(odd){background-color: yellow;}
+.task3 button[value*="create"]{background-color: yellow;}
+.task4 .parag:hover{background-color: yellow;}
+.task5 input::placeholder{color: red;}

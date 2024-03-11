@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  padding: 50px;
+  background-image: url(images/lila.png);}
+
+.main > div {
+  padding: 25px;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+
+.right li{list-style: none; padding: 10px;}
+.right li:nth-child(1){background-color:rgb(58, 0, 111);}
+.right li:nth-child(2){background-color:rgb(138, 19, 248);}
+.right li:nth-child(3){background-color:rgb(172, 88, 251);}
+.right li:nth-child(4){background-color:rgb(192, 130, 245);}
+.right li:nth-child(5){background-color:rgb(233, 171, 255)}
+.right li:nth-child(6){background-color:rgb(246, 221, 255)}
