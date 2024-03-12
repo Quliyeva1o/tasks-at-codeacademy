@@ -1,0 +1,26 @@
+* {font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.margin {
+  background-color: greenyellow;
+  margin: 0px auto;
+}
+.border {
+  background-color: yellow;
+}
+.box {
+  background-color: chocolate;justify-content: center;display: grid;
+}
+.padding {
+  background-color: cornflowerblue;
+}
+div {
+  padding: 50px 100px 100px 100px;
+}
+div {
+  line-height: 50px;
+  font-size: 20px;
+}
