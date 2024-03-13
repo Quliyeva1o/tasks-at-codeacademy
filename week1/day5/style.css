@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+header {
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  padding: 20px;
+  margin: 0px auto;
+  display: grid;
+}
+.heading h1 {
+  margin-top: 342px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 11rem;
+  font-weight: 700;
+  color: #fff;
+}
+.heading h3 {
+  margin-top: 57px;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 5px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+header {
+  background-image: url(/week1/day4/images/bgi.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading h1 {
+    font-size: 6rem;
+  }
+  .heading h3 {
+    font-size: 4.5rem;
+  }
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 340px;
+  }
+  .heading h1 {
+    font-size: 4.5rem;
+  }
+}
+
+.childrens--section .container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 514px;
+  padding: 82px 0;
+ 
+}
+.childrens--section h2 {
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 81px 0 0;
+  color: #fff;
+  margin: 81px 0 0;
+}
+.childrens--section p{margin: 81px 0 0;font-size: 16px;}
+.childrens--section h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 35px;
+  color: #000;
+}
+.childrens--section {
+  background-color: #7da2a9;
+  align-items: center;
+
+  justify-content: center;
+}
+.childrens--section .container div{ padding: 20px;
+width: 50%;
+}
+.childrens--section .container div:first-of-type {
+  text-align: right;
+}
