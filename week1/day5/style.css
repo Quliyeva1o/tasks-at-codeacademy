@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 header {
   justify-content: center;
@@ -37,7 +36,13 @@ header {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;
+    width: 1100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 900px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -62,6 +67,7 @@ header {
 
 .childrens--section .container {
   display: flex;
+
   justify-content: center;
   margin: 0 auto;
   min-height: 514px;
@@ -101,11 +107,131 @@ header {
   text-align: right;
 }
 
-@media(min-width: 768px) and (max-width: 991px){
-  .childrens--section h2 {font-size: 48px;
-   
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 700px;
+  }
+  .childrens--section h2 {
+    font-size: 48px;
+  }
 }
+.childrens--section h2,
+.childrens--section h3 {
+  font-family: "Ubuntu", sans-serif;
 }
-.childrens--section h2,.childrens--section h3{
-   font-family: 'Ubuntu',sans-serif;
+@media (max-width: 767px) {
+  .childrens--section .container {
+    display: grid;
+  }
+  .childrens--section .container div {
+    padding: 20px;
+    width: 100%;
+  }
+  .childrens--section p,
+  .childrens--section h2 {
+    margin: 0px;
+  }
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.boxes-section {
+  justify-content: center;
+  margin: 120px auto;
+}
+.boxes-section > h1,
+.boxes-section > p {
+  text-align: center;
+}
+.boxes-section > h1 {
+  font-size: 30px;
+}
+.boxes-section > p {
+  margin-bottom: 50px;
+}
+@media (min-width: 790px) {
+  .boxes-section > p {
+    margin: 50px auto;
+    width: 692px;
+  }
+}
+.boxes-section h2,
+.boxes-section h3,
+.boxes-section p {
+  margin-top: 30px;
+}
+.boxes-section h1,
+.boxes-section h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+.boxes-section p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.boxes-section i {
+  font-size: 30px;
+  color: #7da2a9;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .boxes {
+    grid-template-columns: auto;
+  }
+}
+
+.black-boxes {
+  display: flex;
+  margin: 92px 0;
+}
+.black-img {
+  background-image: url(images/blackimg.jpeg);
+  width: 200px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.black-boxes div {
+  justify-content: center;
+  padding: 100px 0px 0px 60px;
+  width: 50%;
+}
+.black-section {
+  background-color: #18181e;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.black-section {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+.black-section h1 {
+  font-size: 30px;
+}
+.black-section p{
+  margin-top: 20px;
+}
+.black-section button {
+  background-color: #7da2a9;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-family: "Open Sans" sans-serif;
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .black-boxes {
+    display: grid;
+  }
+  .black-boxes div {
+    width: 100%;
+    padding-left: 0px;
+  }
 }
