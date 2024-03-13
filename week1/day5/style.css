@@ -30,7 +30,7 @@ header {
   color: #fff;
 }
 header {
-  background-image: url(/week1/day4/images/bgi.jpeg);
+  background-image: url(/week1/day5/images/bgi.jpeg);
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -66,7 +66,6 @@ header {
   margin: 0 auto;
   min-height: 514px;
   padding: 82px 0;
- 
 }
 .childrens--section h2 {
   text-transform: uppercase;
@@ -76,7 +75,12 @@ header {
   color: #fff;
   margin: 81px 0 0;
 }
-.childrens--section p{margin: 81px 0 0;font-size: 16px;}
+.childrens--section p {
+  margin: 81px 0 0;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
 .childrens--section h3 {
   text-transform: uppercase;
   font-weight: 700;
@@ -89,9 +93,19 @@ header {
 
   justify-content: center;
 }
-.childrens--section .container div{ padding: 20px;
-width: 50%;
+.childrens--section .container div {
+  padding: 20px;
+  width: 50%;
 }
 .childrens--section .container div:first-of-type {
   text-align: right;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .childrens--section h2 {font-size: 48px;
+   
+}
+}
+.childrens--section h2,.childrens--section h3{
+   font-family: 'Ubuntu',sans-serif;
 }
