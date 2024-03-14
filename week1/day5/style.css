@@ -215,7 +215,7 @@ header {
 .black-section h1 {
   font-size: 30px;
 }
-.black-section p{
+.black-section p {
   margin-top: 20px;
 }
 .black-section button {
@@ -233,5 +233,181 @@ header {
   .black-boxes div {
     width: 100%;
     padding-left: 0px;
+  }
+}
+
+.our-gallery h1{  font-family: 'Ubuntu',sans-serif; font-size: 30px;}
+.our-gallery p{  font-family: 'Open Sans',sans-serif; margin-bottom: 15px; max-width: 600px; margin: 40px auto;}
+.our-gallery {
+
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.gallery-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.gallery-images img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+@media (max-width: 767px) {
+  .gallery-images {
+    grid-template-columns: auto;
+  }
+}
+.collective-section {
+  background-color: #7da2a9;
+}
+.collective {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  margin: 50px auto 0px;
+  padding: 120px 0;
+  gap: 120px;
+  text-align: center;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+.collective div {
+  padding: 20px;
+}
+.collective h1 {
+  font-size: 25px;
+  padding: 10px;
+}
+.collective p {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .collective {
+    grid-template-columns: auto auto;
+    gap: 60px;
+    justify-content: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .collective {
+    gap: 100px;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+}
+
+.last-images {
+  display: flex;
+}
+.last-images img {
+  width: 33.3333333%;
+  height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .last-images {
+    display: grid;
+  }
+  .last-images img {
+    width: 100%;
+  }
+}
+
+.questions-section {
+  display: flex;
+}
+.questions-section > div {
+  padding: 130px;
+  width: 50%;
+}
+.questions-section div:first-of-type {
+  background-color: #7da2a9;
+}
+
+.questions-section > div:last-of-type {
+  background-color: #18181e;
+  padding: 190px 200px;
+}
+.questions-section input,
+.questions-section textarea {
+  font: 16px "Open Sans", sans-serif;
+  background-color: #18181e;
+  border: 1px solid #fff;
+  width: 100%;
+  margin: 5px;
+  padding: 10px 12px;
+}
+.questions-section textarea {
+  height: 150px;
+}
+.questions-section > div:first-of-type {
+  color: #fff;
+  padding-top: 190px;
+  padding-left: 90px;
+}
+.questions-section > div:first-of-type i {
+  color: #fff;
+}
+.questions-section h1 {
+  font: 30px "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+.questions-section p {
+  font: 16px "Open Sans", sans-serif;
+  padding: 10px 0;
+  line-height: 25px;
+}
+.questions-section i {
+  font-size: 20px;
+  padding: 6px;
+}
+.questions-section button {
+  padding: 15px 40px;
+  margin: 5px;
+  background-color: #afdae2;
+  border: none;
+}
+footer {
+  background-color: #333333;
+  padding: 30px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+footer p {
+  color: #fff;
+  font-size: 12px;
+}
+footer a {
+  color: #7da2a9;
+}
+
+@media (max-width: 991px) {
+  .questions-section > div:last-of-type {
+    color: #fff;
+    padding: 90px 50px;
+  }
+  .questions-section > div:first-of-type {
+    color: #fff;
+    padding: 60px 50px;
+  }
+  .questions-section div {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .questions-section {
+    display: grid;
+  }
+  .questions-section div{
+    width: 100%;
   }
 }
