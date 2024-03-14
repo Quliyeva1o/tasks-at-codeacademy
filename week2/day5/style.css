@@ -29,7 +29,7 @@ header {
   color: #fff;
 }
 header {
-  background-image: url(/week1/day5/images/bgi.jpeg);
+  background-image: url(images/bgi.jpeg);
   background-position: center;
   background-size: cover;
   width: 100vw;
