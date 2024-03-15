@@ -11,7 +11,10 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-.logo{display: flex;align-items: center;}
+.logo {
+  display: flex;
+  align-items: center;
+}
 .header .container,
 nav .container {
   align-items: center;
@@ -38,6 +41,13 @@ nav .container {
     width: 1200px;
   }
 }
+.col-12 {
+  width: 100%;
+}
+.col-4 {
+  width: calc(100% / 3);
+}
+
 header {
   font-family: "Poppins", sans-serif;
 }
@@ -88,3 +98,106 @@ nav {
   height: 800px;
   background-position: center;
 }
+.content {
+  align-items: center;
+  justify-content: center;
+  padding: 250px 20px;
+}
+
+.content h3 {
+  color: rgb(235, 86, 108);
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content h1 {
+  font-size: 85px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-family: Sarabun, sans-serif;
+  line-height: 1.2;
+  margin-bottom: 33px;
+}
+
+.content span {
+  align-self: center;
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: rgb(235, 86, 108);
+  border: none;
+}
+.content button {
+  padding: 15px 40px;
+  background-color: rgb(235, 86, 108);
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+}
+.content p {
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 50px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+.cards {font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.card i {
+  padding: 35px;
+  color: rgb(235, 86, 108);
+  font-size: 50px;
+}
+.card h2 {
+
+  line-height: 50px;
+}
+.card p {
+
+  height: 60px;
+  line-height: 20px;
+  padding: 35px 0;
+}
+
+.our-best-services-section h1 {
+  
+  font-size: 50px;
+  display: block;
+  color: rgb(9, 44, 63);
+  font-weight: 900;
+  font-family: 'Roboto',sans-serif;
+}
+.our-best-services-section {
+  padding: 170px 0;
+  
+}
+.our-best-services-section h3{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(235, 86, 108);
+}
+
+
+
+.card:hover{ 
+    background: linear-gradient(to bottom, #fff ,50%, rgb(255, 33, 67) 50%);
+    background-size: 100% 200%;
+    background-position: bottom left;
+    color: #fff;border: 0;
+  
+  }
+  .card:hover i{ color: #fff; }
+.card {
+transition: 0.8s;
+    border: 10px solid #fff;
+    background-position: top left;
+    
+  }
