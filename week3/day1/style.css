@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: rgba(44, 62, 80, 1);
+}
+.nav-btns .active {
+  background-color: #1abc9c;
+}
+.nav-btns button {
+  border: none;
+}
+.nav-btns button:hover {
+  color: #1abc9c !important;
+}
+.nav-btns .active:hover {
+  color: #fff !important;
+}
+.hero-section {
+  height: 700px;
+  background-color: #1abc9c;
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+}
+.hero-section img {
+  width: 15rem;
+}
+
+.star-before {
+  margin-right: 1rem;
+}
+.star-after {
+  margin-left: 1rem;
+}
+.hero-section .star-before,.about-section .star-before, 
+.hero-section .star-after,.about-section .star-after {
+  background-color: #fff;
+  height: 0.25rem;
+  width: 7rem;
+}
+
+.fa-star {
+  font-size: 2rem;
+}
+.star {
+  margin: 1.5rem 0;
+}
+.hero-section p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.images .star-after,.contact-section .star-before,
+.images .star-before,.contact-section .star-after {
+  background-color: rgba(44, 62, 80, 1);
+  height: 0.25rem;
+  width: 7rem;
+}
+
+.card-bg {
+  background-color: #1abc9cc6;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+.card-bg h1 {
+  display: none;
+  font-size: 90px;
+}
+
+.img-card:hover .card-bg h1 {
+  display: flex;
+}
+.img-card:hover .card-bg {
+  position: absolute;
+}
+
+.about-section {
+  background-color: #1abc9c;
+}
+
+
+.contact-form input ,.contact-form textarea{border:none}
+.contact-form textarea{
+    height: 160px!important;
+}
+
+.contact-form .btn{background-color: #1abc9cb1;}
