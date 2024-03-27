@@ -109,3 +109,5 @@
 // var ck=(a+b)**3
 // var kc=(a**3+ (b**3))
 // alert(`a ve b nin ceminin kubu ${ck} dir kublar cemi ise ${kc}dir`)
+
+
