@@ -64,3 +64,28 @@ Object.setPrototypeOf(design, employee.prototype);
 Object.setPrototypeOf(it, employee.prototype);
 Object.setPrototypeOf(management, employee.prototype);
 Object.setPrototypeOf(hr, employee.prototype);
+
+
+function searchEmployee(employees) {
+    return employees.filter(function (employee) {
+        return employee.experienceYear > 5 &&
+            employee.experienceYear >= 20 && employee.experienceYear <= 35 &&
+            (employee.department === 'IT' || employee.department === 'Design');}).map(function (employee) {
+        return {
+            fullName: `${employee.generateID()}`,
+            salary: employee.salary,
+            department: employee.department,
+            age: Math.floor(Math.random() * 16) + 20,
+            id: employee.generateID()
+        };
+    });
+}
+
+
+let employees = [ design, it, management, hr];
+
+let filteredEmployees = searchEmployee(employees);
+
+console.log(filteredEmployees);
+
+
