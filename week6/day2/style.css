@@ -1,0 +1,25 @@
+body,
+.inputs {
+  background-color: rgb(23, 23, 23) !important;
+}
+
+.inputs {
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.inputs input {
+  border: none;
+  background-color: rgb(71, 71, 71) !important;
+}
+.inputs input:focus {
+  box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.757);
+}
+.inputs button,
+#tbody button {
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}
