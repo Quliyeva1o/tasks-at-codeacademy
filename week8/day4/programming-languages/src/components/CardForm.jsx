@@ -12,7 +12,20 @@ const CardForm = ({ myData, setMydata}) => {
     return (
         <>
             <Container className='mt-5'>
-                <Form>
+                <Form
+                 onSubmit={(a) => {
+                    a.preventDefault()
+                    const NewLanguage = {
+                        img: courseimage,
+                        title: coursename,
+                        price: courseprice,
+                    }
+                    myData.push(NewLanguage)
+                    setMydata([...myData],NewLanguage)
+                    console.log(myData);
+
+                }}
+                >
                     <Row>
                         <Col>
                             <label>Course Name</label>
@@ -41,16 +54,7 @@ const CardForm = ({ myData, setMydata}) => {
                             />
                         </Col>
                     </Row>
-                    <Button type='submit' onSubmit={() => {
-                        const NewLanguage = {
-                            img: courseimage,
-                            title: coursename,
-                            price: courseprice,
-                        }
-                        myData.push(NewLanguage)
-                        setMydata([...myData,NewLanguage])
-
-                    }} >add</Button>
+                    <Button type='submit' >add</Button>
                 </Form></Container>
         </>
     )
